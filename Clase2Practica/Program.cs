@@ -10,6 +10,7 @@ namespace Clase2Practica
     {
         static void Main(string[] args)
         {
+            EjercicioEscribirJson.Ejecutar();
             EjercicioLeerJson.Ejecutar();
         }
 
