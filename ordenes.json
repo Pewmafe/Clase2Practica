@@ -10,15 +10,22 @@
     {
       "nroOrden": 2,
       "descripcion": "Manguera 3/4",
-      "Cantidad": 1,
+      "cantidad": 1,
       "precio": 100,
       "entregada": true
     },
-	{
+    {
       "nroOrden": 3,
       "descripcion": "Rodillo",
       "cantidad": 1,
       "precio": 300,
+      "entregada": false
+    },
+    {
+      "nroOrden": 4,
+      "descripcion": "queso",
+      "cantidad": 34,
+      "precio": 32,
       "entregada": false
     }
   ]

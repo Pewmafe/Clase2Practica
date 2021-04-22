@@ -41,8 +41,10 @@ namespace Clase2Practica
             orden.precio = Int32.Parse(precioString);
 
             ordenes.Add(orden);
+            JsonRoot jsonroot = new JsonRoot();
+            jsonroot.ordenes = ordenes;
 
-            var jsonConvertido = JsonConvert.SerializeObject(ordenes);
+            var jsonConvertido = JsonConvert.SerializeObject(jsonroot, Formatting.Indented);
             File.WriteAllText(@"..\.\..\..\..\ordenes.json", jsonConvertido);
 
         }
